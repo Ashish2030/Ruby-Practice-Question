@@ -1,5 +1,24 @@
-array=[1,2,3]
-puts array[0]
-puts array[1]
-puts array[2]
 
+	class Y
+		def self.xyz
+			puts( "goodbye" )
+		end
+	end
+	
+	class Array
+	def gribbit
+		puts( "gribbit" )
+	end
+	end
+
+	
+	
+Y.xyz
+[1,2,3].gribbit
+#Array.gribbit
+
+
+
+
+
+  
